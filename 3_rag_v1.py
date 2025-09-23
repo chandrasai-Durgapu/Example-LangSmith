@@ -1,4 +1,4 @@
-# pip install -U langchain langchain-openai langchain-community faiss-cpu pypdf python-dotenv
+
 import os
 import time
 import logging
@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableLambda
 from langchain_core.output_parsers import StrOutputParser
 
-# Load environment variables (OPENAI_API_KEY expected for some integrations)
+# Load environment variables ()
 load_dotenv()
 os.environ["LANGCHAIN_PROJECT"] = 'RAG Chatbot v1'
 
@@ -23,7 +23,7 @@ logging.basicConfig(
 )
 
 # 1) Load PDF
-PDF_PATH = "DIABETES.pdf"  # <-- Change this to your PDF file
+PDF_PATH = "DIABETES.pdf"  
 logging.info(f"PDF path: {PDF_PATH}")
 
 loader = PyPDFLoader(PDF_PATH)

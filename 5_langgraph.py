@@ -12,7 +12,7 @@ from langgraph.graph import StateGraph, START, END
 load_dotenv()
 os.environ["LANGCHAIN_PROJECT"] = "LangGraph AI Agent with Groq"
 # Ensure the Groq API key is set via environment variable: GROQ_API_KEY
-# Example: export GROQ_API_KEY=your_key_here
+
 
 model = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 

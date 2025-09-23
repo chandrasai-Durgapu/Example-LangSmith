@@ -1,4 +1,4 @@
-# pip install -U langchain langchain-openai langchain-community faiss-cpu pypdf python-dotenv langsmith
+
 
 import os
 import time
@@ -20,7 +20,7 @@ from langsmith import traceable
 
 # -------------------- Setup --------------------
 load_dotenv()
-os.environ["LANGCHAIN_PROJECT"] = 'RAG v4-meta tags'
+os.environ["LANGCHAIN_PROJECT"] = 'RAG Chatbot v4-meta tags'
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

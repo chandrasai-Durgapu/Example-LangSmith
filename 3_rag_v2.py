@@ -1,4 +1,4 @@
-# pip install -U langchain langchain-openai langchain-community faiss-cpu pypdf python-dotenv langsmith
+
 
 import os
 import time
@@ -16,7 +16,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langsmith import traceable
 # Load environment variables
 load_dotenv()
-os.environ["LANGCHAIN_PROJECT"] = 'RAG v2'
+os.environ["LANGCHAIN_PROJECT"] = 'RAG Chatbot v2'
 
 # Logging setup
 logging.basicConfig(

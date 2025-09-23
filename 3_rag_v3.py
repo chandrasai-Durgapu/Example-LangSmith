@@ -1,4 +1,4 @@
-# pip install -U langchain langchain-openai langchain-community faiss-cpu pypdf python-dotenv langsmith
+
 #added tags and metadata in @trace()......langsmith source code
 
 import os
@@ -18,7 +18,7 @@ from langsmith import traceable
 # Load environment variables
 load_dotenv()
 
-os.environ["LANGCHAIN_PROJECT"] = 'RAG v3-meta tags'
+os.environ["LANGCHAIN_PROJECT"] = 'RAG Chatbot v3-meta tags'
 
 # Logging setup
 logging.basicConfig(
