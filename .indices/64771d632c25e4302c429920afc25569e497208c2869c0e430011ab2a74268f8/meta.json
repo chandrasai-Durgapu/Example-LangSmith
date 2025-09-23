@@ -1,0 +1,6 @@
+{
+  "pdf_path": "G:\\DataScienceProjects\\AI-Agents\\Example-LangSmith\\DIABETES.pdf",
+  "chunk_size": 500,
+  "chunk_overlap": 30,
+  "embedding_model": "all-MiniLM-L6-v2"
+}
