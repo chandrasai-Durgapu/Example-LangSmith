@@ -16,7 +16,9 @@ This project demonstrates how to integrate **LangSmith** into a LangChain-based 
 - Sequential chains  
 - Retrieval-Augmented Generation (RAG)  
 - Agent workflows  
-- LangGraph orchestration  
+- LangGraph orchestration
+- Langsmith --- Monitoring and Alerting
+[View LangSmith Projects](https://smith.langchain.com/o/b19e13a8-e01b-4367-8e67-7c4ae54a2821/projects)
 
 All examples are instrumented with LangSmith for tracing and monitoring.
 ---
